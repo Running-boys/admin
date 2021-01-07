@@ -16,7 +16,7 @@ Vue.prototype.echarts = echarts
 import "echarts/map/js/china";
 import "echarts/map/js/world";
 import 'echarts/map/js/worldZH';
-
+// import "echarts/map/js/world-china.js";
 import '@/styles/index.scss' // global css
 
 import App from './App'

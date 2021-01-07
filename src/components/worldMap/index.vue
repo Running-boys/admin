@@ -227,7 +227,7 @@ export default {
                 series: [
                     {
                         type: "map",
-                        mapType: "world",
+                        mapType: "worldAndChina",
                         // zoom: 1.2,
                         mapLocation: {
                             y: 100,
