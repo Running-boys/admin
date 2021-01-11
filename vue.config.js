@@ -38,6 +38,19 @@ module.exports = {
     },
     before: require('./mock/mock-server.js')
   },
+  // css: {
+  //   loaderOptions: {
+  //     postcss: {
+  //       plugins: [
+  //         require('postcss-pxtorem')({ // 把px单位换算成rem单位
+  //           rootValue: 96.0, // 换算的基数(设计图750的根字体为32)
+  //           selectorBlackList: ['weui', 'mu'], // 忽略转换正则匹配项
+  //           propList: ['*']
+  //         })
+  //       ]
+  //     }
+  //   }
+  // },
   configureWebpack: {
     // provide the app's title in webpack's name field, so that
     // it can be accessed in index.html to inject the correct title.

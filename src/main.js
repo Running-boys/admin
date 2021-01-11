@@ -19,6 +19,14 @@ import 'echarts/map/js/worldZH';
 // import "echarts/map/js/world-china.js";
 import '@/styles/index.scss' // global css
 
+// 引入treeselect
+import Treeselect from '@riophae/vue-treeselect'
+import '@riophae/vue-treeselect/dist/vue-treeselect.css'
+Vue.component('treeselect',Treeselect)
+
+// 移动端适配
+// import 'lib-flexible/flexible.js'
+
 import App from './App'
 import store from './store'
 import router from './router'
